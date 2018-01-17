@@ -29,6 +29,158 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Amplifier_Audio
+LIBS:Amplifier_Buffer
+LIBS:Amplifier_Current
+LIBS:Amplifier_Difference
+LIBS:Amplifier_Instrumentation
+LIBS:Amplifier_Operational
+LIBS:Amplifier_Video
+LIBS:Analog
+LIBS:Analog_ADC
+LIBS:Analog_DAC
+LIBS:Analog_Switch
+LIBS:Audio
+LIBS:Battery_Management
+LIBS:Comparator
+LIBS:Connector_Generic
+LIBS:Connector_Generic_Shielded
+LIBS:Connector_Specialized
+LIBS:Converter_DCDC
+LIBS:CPLD_Altera
+LIBS:CPLD_Xilinx
+LIBS:CPU
+LIBS:Device
+LIBS:Diode
+LIBS:Diode_Bridge
+LIBS:Diode_Laser
+LIBS:Display_Character
+LIBS:Display_Graphic
+LIBS:Driver_Display
+LIBS:Driver_FET
+LIBS:Driver_LED
+LIBS:Driver_Motor
+LIBS:Driver_Relay
+LIBS:DSP_Freescale
+LIBS:DSP_Microchip_DSPIC33
+LIBS:DSP_Texas
+LIBS:FPGA_Actel
+LIBS:FPGA_Xilinx
+LIBS:FPGA_Xilinx_Artix7
+LIBS:FPGA_Xilinx_Kintex7
+LIBS:FPGA_Xilinx_Spartan6
+LIBS:FPGA_Xilinx_Virtex5
+LIBS:FPGA_Xilinx_Virtex6
+LIBS:FPGA_Xilinx_Virtex7
+LIBS:Graphic
+LIBS:Interface
+LIBS:Interface_CAN_LIN
+LIBS:Interface_CurrentLoop
+LIBS:Interface_Ethernet
+LIBS:Interface_Expansion
+LIBS:Interface_HID
+LIBS:Interface_LineDriver
+LIBS:Interface_Optical
+LIBS:Interface_Telecom
+LIBS:Interface_UART
+LIBS:Interface_USB
+LIBS:Isolator
+LIBS:Isolator_Analog
+LIBS:Jumper
+LIBS:LED
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:Logic_LevelTranslator
+LIBS:Logic_Programmable
+LIBS:Logic_TTL_IEEE
+LIBS:MCU_AnalogDevices
+LIBS:MCU_Atmel_8051
+LIBS:MCU_Atmel_ATMEGA
+LIBS:MCU_Atmel_ATTINY
+LIBS:MCU_Atmel_AVR
+LIBS:MCU_Cypress
+LIBS:MCU_Infineon
+LIBS:MCU_Intel
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_Microchip_SAME
+LIBS:MCU_Microchip_SAML
+LIBS:MCU_Module
+LIBS:MCU_NXP_HC11
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_SiFive
+LIBS:MCU_SiliconLabs
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:Memory_Controller
+LIBS:Memory_EEPROM
+LIBS:Memory_Flash
+LIBS:Memory_NVRAM
+LIBS:Memory_RAM
+LIBS:Memory_ROM
+LIBS:Memory_UniqueID
+LIBS:Motor
+LIBS:Oscillator
+LIBS:Potentiometer_Digital
+LIBS:Power_Management
+LIBS:Power_Protection
+LIBS:Power_Supervisor
+LIBS:pspice
+LIBS:Reference_Current
+LIBS:Reference_Voltage
+LIBS:Regulator_Controller
+LIBS:Regulator_Current
+LIBS:Regulator_Linear
+LIBS:Regulator_SwitchedCapacitor
+LIBS:Regulator_Switching
+LIBS:Relay
+LIBS:Relay_SolidState
+LIBS:RF
+LIBS:RF_AM_FM
+LIBS:RF_Bluetooth
+LIBS:RF_GPS
+LIBS:RF_Mixer
+LIBS:RF_Module
+LIBS:RF_RFID
+LIBS:RF_WiFi
+LIBS:RF_ZigBee
+LIBS:Sensor
+LIBS:Sensor_Audio
+LIBS:Sensor_Current
+LIBS:Sensor_Gas
+LIBS:Sensor_Humidity
+LIBS:Sensor_Magnetic
+LIBS:Sensor_Motion
+LIBS:Sensor_MultiFunction
+LIBS:Sensor_Optical
+LIBS:Sensor_Pressure
+LIBS:Sensor_Proximity
+LIBS:Sensor_Temperature
+LIBS:Sensor_Touch
+LIBS:Sensor_Voltage
+LIBS:Switch
+LIBS:Timer
+LIBS:Timer_RTC
+LIBS:Transformer
+LIBS:Transistor_Array
+LIBS:Transistor_BJT
+LIBS:Transistor_FET
+LIBS:Transistor_IGBT
+LIBS:Triac_Thyristor
+LIBS:Valve
+LIBS:Video
 LIBS:board-cache
 EELAYER 25 0
 EELAYER END
@@ -50,7 +202,7 @@ U 1 1 5A5E2586
 P 6900 2100
 F 0 "IC1" H 5750 2500 50  0000 C CNN
 F 1 "ATTINY85-P" H 7900 1700 50  0000 C CNN
-F 2 "DIP8" H 7900 2100 50  0000 C CIN
+F 2 "Housings_DIP:DIP-8_W10.16mm" H 7900 2100 50  0001 C CIN
 F 3 "" H 6900 2100 50  0000 C CNN
 	1    6900 2100
 	-1   0    0    -1  
@@ -61,7 +213,7 @@ U 1 1 5A5E265D
 P 5050 4250
 F 0 "P2" H 5050 4500 50  0000 C CNN
 F 1 "CONN_01X04" V 5150 4250 50  0000 C CNN
-F 2 "" H 5050 4250 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 5050 4250 50  0001 C CNN
 F 3 "" H 5050 4250 50  0000 C CNN
 	1    5050 4250
 	-1   0    0    -1  
@@ -72,7 +224,7 @@ U 1 1 5A5E26D0
 P 5050 4950
 F 0 "P3" H 5050 5200 50  0000 C CNN
 F 1 "CONN_01X04" V 5150 4950 50  0000 C CNN
-F 2 "" H 5050 4950 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 5050 4950 50  0001 C CNN
 F 3 "" H 5050 4950 50  0000 C CNN
 	1    5050 4950
 	-1   0    0    -1  
@@ -83,7 +235,7 @@ U 1 1 5A5E2E02
 P 5800 3400
 F 0 "P4" H 5800 3700 50  0000 C CNN
 F 1 "USBasp" H 5800 3100 50  0000 C CNN
-F 2 "" H 5800 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 5800 2200 50  0001 C CNN
 F 3 "" H 5800 2200 50  0000 C CNN
 	1    5800 3400
 	1    0    0    -1  
@@ -94,7 +246,7 @@ U 1 1 5A5E2E57
 P 7600 4350
 F 0 "SW1" H 7750 4460 50  0000 C CNN
 F 1 "SW_PUSH" H 7600 4270 50  0000 C CNN
-F 2 "" H 7600 4350 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_FSMSM" H 7600 4350 50  0001 C CNN
 F 3 "" H 7600 4350 50  0000 C CNN
 	1    7600 4350
 	1    0    0    -1  
@@ -105,16 +257,16 @@ U 1 1 5A5E2F8E
 P 4000 4350
 F 0 "P1" H 4325 4225 50  0000 C CNN
 F 1 "USB_OTG" H 4000 4550 50  0000 C CNN
-F 2 "" V 3950 4250 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B_10103594-0001LF" V 3950 4250 50  0001 C CNN
 F 3 "" V 3950 4250 50  0000 C CNN
 	1    4000 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR3
+L +5V #PWR01
 U 1 1 5A5E3011
 P 5050 1500
-F 0 "#PWR3" H 5050 1350 50  0001 C CNN
+F 0 "#PWR01" H 5050 1350 50  0001 C CNN
 F 1 "+5V" H 5050 1640 50  0000 C CNN
 F 2 "" H 5050 1500 50  0000 C CNN
 F 3 "" H 5050 1500 50  0000 C CNN
@@ -122,10 +274,10 @@ F 3 "" H 5050 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR02
 U 1 1 5A5E3037
 P 5050 2700
-F 0 "#PWR4" H 5050 2450 50  0001 C CNN
+F 0 "#PWR02" H 5050 2450 50  0001 C CNN
 F 1 "GND" H 5050 2550 50  0000 C CNN
 F 2 "" H 5050 2700 50  0000 C CNN
 F 3 "" H 5050 2700 50  0000 C CNN
@@ -133,10 +285,10 @@ F 3 "" H 5050 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR1
+L +5V #PWR03
 U 1 1 5A5E3837
 P 3800 4750
-F 0 "#PWR1" H 3800 4600 50  0001 C CNN
+F 0 "#PWR03" H 3800 4600 50  0001 C CNN
 F 1 "+5V" H 3800 4890 50  0000 C CNN
 F 2 "" H 3800 4750 50  0000 C CNN
 F 3 "" H 3800 4750 50  0000 C CNN
@@ -144,10 +296,10 @@ F 3 "" H 3800 4750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR04
 U 1 1 5A5E3AEE
 P 4200 4750
-F 0 "#PWR2" H 4200 4500 50  0001 C CNN
+F 0 "#PWR04" H 4200 4500 50  0001 C CNN
 F 1 "GND" H 4200 4600 50  0000 C CNN
 F 2 "" H 4200 4750 50  0000 C CNN
 F 3 "" H 4200 4750 50  0000 C CNN
@@ -188,7 +340,7 @@ U 1 1 5A5E4C32
 P 5050 2100
 F 0 "C1" H 5075 2200 50  0000 L CNN
 F 1 "22p" H 5075 2000 50  0000 L CNN
-F 2 "" H 5088 1950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5088 1950 50  0001 C CNN
 F 3 "" H 5050 2100 50  0000 C CNN
 	1    5050 2100
 	1    0    0    -1  
@@ -234,10 +386,10 @@ PB0
 Wire Wire Line
 	5350 4800 5350 4750
 $Comp
-L +5V #PWR5
+L +5V #PWR05
 U 1 1 5A5E61D7
 P 5350 4750
-F 0 "#PWR5" H 5350 4600 50  0001 C CNN
+F 0 "#PWR05" H 5350 4600 50  0001 C CNN
 F 1 "+5V" H 5350 4890 50  0000 C CNN
 F 2 "" H 5350 4750 50  0000 C CNN
 F 3 "" H 5350 4750 50  0000 C CNN
@@ -245,10 +397,10 @@ F 3 "" H 5350 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR06
 U 1 1 5A5E6217
 P 5450 4400
-F 0 "#PWR6" H 5450 4150 50  0001 C CNN
+F 0 "#PWR06" H 5450 4150 50  0001 C CNN
 F 1 "GND" H 5450 4250 50  0000 C CNN
 F 2 "" H 5450 4400 50  0000 C CNN
 F 3 "" H 5450 4400 50  0000 C CNN
@@ -285,10 +437,10 @@ PB2
 Text Label 5450 3600 0    60   ~ 0
 PB1
 $Comp
-L +5V #PWR7
+L +5V #PWR07
 U 1 1 5A5E6C48
 P 6200 3200
-F 0 "#PWR7" H 6200 3050 50  0001 C CNN
+F 0 "#PWR07" H 6200 3050 50  0001 C CNN
 F 1 "+5V" H 6200 3340 50  0000 C CNN
 F 2 "" H 6200 3200 50  0000 C CNN
 F 3 "" H 6200 3200 50  0000 C CNN
@@ -301,10 +453,10 @@ Connection ~ 6200 3500
 Connection ~ 6200 3400
 Connection ~ 6200 3300
 $Comp
-L GND #PWR8
+L GND #PWR08
 U 1 1 5A5E6D83
 P 6350 3300
-F 0 "#PWR8" H 6350 3050 50  0001 C CNN
+F 0 "#PWR08" H 6350 3050 50  0001 C CNN
 F 1 "GND" H 6350 3150 50  0000 C CNN
 F 2 "" H 6350 3300 50  0000 C CNN
 F 3 "" H 6350 3300 50  0000 C CNN
@@ -317,10 +469,10 @@ NoConn ~ 4100 4650
 Wire Wire Line
 	7900 4350 8150 4350
 $Comp
-L GND #PWR10
+L GND #PWR09
 U 1 1 5A5ECB2F
 P 8150 4350
-F 0 "#PWR10" H 8150 4100 50  0001 C CNN
+F 0 "#PWR09" H 8150 4100 50  0001 C CNN
 F 1 "GND" H 8150 4200 50  0000 C CNN
 F 2 "" H 8150 4350 50  0000 C CNN
 F 3 "" H 8150 4350 50  0000 C CNN
@@ -328,10 +480,10 @@ F 3 "" H 8150 4350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR9
+L +5V #PWR010
 U 1 1 5A5ECB9E
 P 7150 5400
-F 0 "#PWR9" H 7150 5250 50  0001 C CNN
+F 0 "#PWR010" H 7150 5250 50  0001 C CNN
 F 1 "+5V" H 7150 5540 50  0000 C CNN
 F 2 "" H 7150 5400 50  0000 C CNN
 F 3 "" H 7150 5400 50  0000 C CNN
@@ -344,7 +496,7 @@ U 1 1 5A5ECBC0
 P 7150 5150
 F 0 "D2" H 7150 5250 50  0000 C CNN
 F 1 "LED" H 7150 5050 50  0000 C CNN
-F 2 "" H 7150 5150 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 7150 5150 50  0001 C CNN
 F 3 "" H 7150 5150 50  0000 C CNN
 	1    7150 5150
 	0    1    1    0   
@@ -355,7 +507,7 @@ U 1 1 5A5ECBE7
 P 7150 4750
 F 0 "R1" V 7230 4750 50  0000 C CNN
 F 1 "200" V 7150 4750 50  0000 C CNN
-F 2 "" V 7080 4750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7080 4750 50  0001 C CNN
 F 3 "" H 7150 4750 50  0000 C CNN
 	1    7150 4750
 	1    0    0    -1  
@@ -377,7 +529,7 @@ U 1 1 5A5ED42B
 P 6700 4350
 F 0 "D1" H 6700 4450 50  0000 C CNN
 F 1 "D" H 6700 4250 50  0000 C CNN
-F 2 "" H 6700 4350 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 6700 4350 50  0001 C CNN
 F 3 "" H 6700 4350 50  0000 C CNN
 	1    6700 4350
 	-1   0    0    1   
