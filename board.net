@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/gallo/software/attiny85_board/board.sch)
-    (date "Thu 18 Jan 2018 10:31:39 PM CET")
+    (date "Thu 18 Jan 2018 10:38:42 PM CET")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
