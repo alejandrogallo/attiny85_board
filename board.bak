@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:board-rescue
+LIBS:symbols
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -181,7 +181,6 @@ LIBS:Transistor_IGBT
 LIBS:Triac_Thyristor
 LIBS:Valve
 LIBS:Video
-LIBS:board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -241,7 +240,7 @@ F 3 "" H 5800 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW1
+L SW_Push SW1
 U 1 1 5A5E2E57
 P 7600 4350
 F 0 "SW1" H 7750 4460 50  0000 C CNN
