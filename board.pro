@@ -1,4 +1,4 @@
-update=Wed 17 Jan 2018 04:28:39 AM CET
+update=Thu 18 Jan 2018 10:28:25 PM CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,7 +29,7 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=board-rescue
+LibName1=lib/symbols
 LibName2=power
 LibName3=device
 LibName4=transistors
